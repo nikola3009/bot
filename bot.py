@@ -41,6 +41,7 @@ def send_mess(chat, text):
     return response
 
 
+
 if __name__ == '__main__': 
     update_id = last_update(get_updates_json(url_bot))['update_id']
     count_rep = auth_git()
